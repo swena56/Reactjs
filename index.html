@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>React JS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- src/js/ -->
+	<script src="src/js/react.production.min.js"></script>
+	<script src="src/js/react-dom.production.min.js"></script>
+	<script src="src/js/prop-types.min.js"></script>
+	<script src="src/js/browser.min.js"></script>
+	<script src="src/js/jquery-3.2.1.slim.min.js"></script>
+	<script src="src/js/popper.min.js"></script>
+	<script src="src/js/bootstrap.min.js"></script>
+	<script src="src/js/math.min.js"></script>
+	<script src="src/js/react-chartjs.min.js"></script>
+	<script src="src/js/bootbox.min.js"></script>
+	
+	<!-- Components -->
+	<script src="src/js/compiled/Template.js"></script>
+	<script src="src/js/compiled/Login.js"></script>
+	<script src="src/js/compiled/NavBar.js"></script>
+
+	 <!-- src/css -->
+	<link rel="stylesheet" href="src/css/font-awesome.min.css" >
+	<link rel="stylesheet" href="src/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/css/animate.min.css">
+	
+	<style type="text/css">
+	
+	</style>
+	
+</head>
+<body>
+	
+	<div id="app"></div>
+
+	<script type="text/babel">
+		
+		class App extends React.Component {
+
+		    constructor(props) {
+		        super(props);
+		        this.state = {
+
+		        };
+		    }
+
+		    render() {
+		        return (
+		        	<div className="container">
+
+		        	 	<NavBar />
+		        	 	<br/>
+
+		        	 	<Template />
+
+		        	 	<br/>
+
+		        	 	<footer className="footer-bottom">
+					      <div className="container">
+					        <span className="text-muted">Place sticky footer content here.</span>
+					      </div>
+					    </footer>
+
+					</div>
+		        );
+		    }
+		}
+
+		ReactDOM.render(<App />, document.querySelector('#app'))
+	</script>
+</body>
+</html>
