@@ -10,3 +10,11 @@ npm start
 # Build for production
 npm run build
 ```
+
+NavBar, Footer, Page
+compile less
+Img Container
+Comment Section
+LazyLoad
+
+load via json
