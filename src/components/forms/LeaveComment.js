@@ -1,4 +1,5 @@
 import React from 'react';
+//import '../../css/bootstrap.min.css';
 
 export default class LeaveComment extends React.Component {
 

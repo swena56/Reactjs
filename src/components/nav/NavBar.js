@@ -1,14 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Login from './Login';
+import Login from '../forms/Login';
 
 class NavBar extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-
         };
     }
 
