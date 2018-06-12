@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4d8039a-aeb5-4213-ae42-3857162404a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/anticipation/Dice/dice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/anticipation/anticipation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/anticipation/anticipation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/anticipation/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/anticipation/dev-draw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/BingoBoard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/_story.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/bingo-caller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/bingo-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/board-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/caller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/dab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/calculator/_story.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/calculator/calculator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/calculator/calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/timeline/_story.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/timeline/daily-routine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/apps/timeline/work-history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forms/_story.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/redux-example/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/redux-example/counter-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/todo-list/todo-list-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/apps/todo-list/todo-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forms/LeaveComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/LeaveComment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/apps/bingo/bingo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/apps/bingo/board/bingo-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="187">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="e#79#113#0" expanded="true" />
               </folding>
@@ -56,50 +40,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dice.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/apps/anticipation/Dice/dice.js">
+      <file leaf-file-name="todo-list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/todo-list/todo-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anticipation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/apps/anticipation/anticipation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="79" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev-draw.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/apps/anticipation/dev-draw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+            <state relative-caret-position="510">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dab.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/dab.js">
+      <file leaf-file-name="counter-store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/redux-example/counter-store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bingo-board.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="97" selection-start-line="78" selection-end-line="97" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +76,56 @@
       <file leaf-file-name="bingo-caller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/bingo-caller.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="11" selection-start-line="10" selection-start-column="8" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="caller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/caller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bingo-caller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BingoBoard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/BingoBoard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bingo-board-store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board-store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bingo-caller-store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller-store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -119,8 +136,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -130,6 +147,8 @@
       <find>left:124</find>
       <find>vertical-timeline-element--</find>
       <find>BingoCaller</find>
+      <find>alt=&quot;&quot;&gt;</find>
+      <find>count</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,9 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/nav/NavBar.js" />
-        <option value="$PROJECT_DIR$/src/apps/timeline/index.html" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/apps/timeline/style..css" />
         <option value="$PROJECT_DIR$/src/components/apps/timeline/style.css" />
         <option value="$PROJECT_DIR$/src/components/apps/timeline/timeline.js" />
@@ -169,7 +185,6 @@
         <option value="$PROJECT_DIR$/.storybook/preview-head.html" />
         <option value="$PROJECT_DIR$/src/components/apps/bingo/BingoBoard.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/components/apps/bingo/bingo-caller.js" />
         <option value="$PROJECT_DIR$/src/components/apps/bingo/dab.js" />
         <option value="$PROJECT_DIR$/src/components/apps/anticipation/dev-draw.js" />
@@ -178,7 +193,21 @@
         <option value="$PROJECT_DIR$/src/components/apps/anticipation/dice.js" />
         <option value="$PROJECT_DIR$/src/components/apps/anticipation/dice.css" />
         <option value="$PROJECT_DIR$/src/components/apps/anticipation/Dice/dice.js" />
+        <option value="C:/wamp64/www/image.html" />
+        <option value="$PROJECT_DIR$/src/components/apps/redux-example/reducers/counter.js" />
+        <option value="$PROJECT_DIR$/src/components/reducers/counter.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/redux-example/redux-template.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/redux-example/reducers/counter-store.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/todo-list/Counter.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/todo-list/todo-list-store.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/todo-list/todo-list.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/redux-example/Counter.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board-store.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller-store.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
+        <option value="$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller.js" />
       </list>
     </option>
   </component>
@@ -193,17 +222,22 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-81" />
-    <option name="y" value="-12" />
-    <option name="width" value="1938" />
-    <option name="height" value="1002" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-11" />
+    <option name="width" value="1298" />
+    <option name="height" value="689" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +259,12 @@
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactjs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactjs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,7 +280,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="anticipation" type="462c0819:PsiDirectoryNode" />
+              <item name="bingo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
@@ -248,8 +288,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="anticipation" type="462c0819:PsiDirectoryNode" />
-              <item name="Dice" type="462c0819:PsiDirectoryNode" />
+              <item name="bingo" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
@@ -257,21 +297,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="bingo" type="462c0819:PsiDirectoryNode" />
+              <item name="caller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactjs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactjs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="nav" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactjs" type="b2602c69:ProjectViewProjectNode" />
@@ -288,12 +331,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/wamp64/www/image.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -304,12 +347,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\components\apps\bingo\caller" />
+      <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\components\apps\bingo" />
+      <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\components\apps" />
+      <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\apps\timeline" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\components\apps\bingo\board" />
+      <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\components\apps\redux-example" />
       <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\components\apps\anticipation\Dice" />
       <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\components\forms" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\swena56\WebstormProjects\reactjs\src\apps\timeline" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -381,26 +429,30 @@
       <workItem from="1526781326323" duration="41693000" />
       <workItem from="1527139380889" duration="23055000" />
       <workItem from="1527364059939" duration="138000" />
+      <workItem from="1527796646531" duration="7210000" />
+      <workItem from="1527810156384" duration="19710000" />
+      <workItem from="1528388087795" duration="678000" />
+      <workItem from="1528397759728" duration="604000" />
+      <workItem from="1528481803442" duration="1647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64886000" />
+    <option name="totallyTimeSpent" value="94735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="676" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="865" height="459" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6419048" visible="true" weight="0.1836248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6356589" visible="true" weight="0.2789855" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007949" side_tool="true" weight="0.28761905" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.28761905" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" weight="0.28761905" />
-      <window_info id="npm" order="2" sideWeight="0.35809523" side_tool="true" visible="true" weight="0.1836248" />
+      <window_info id="npm" order="2" sideWeight="0.36434108" side_tool="true" weight="0.18406375" />
       <window_info id="Structure" order="1" sideWeight="0.50127226" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.032380953" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.032380953" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,6 +462,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295238" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" sideWeight="0.36434108" side_tool="true" visible="true" weight="0.18406375" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6356589" visible="true" weight="0.18406375" />
+      <window_info id="Structure" order="1" sideWeight="0.50127226" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920508" weight="0.28761905" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.032380953" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007949" side_tool="true" weight="0.28761905" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295238" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -423,83 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/dab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/bingo-caller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/apps/anticipation/Dice/dice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apps/timeline/index.html" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="62" selection-start-column="62" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/lib/post_install.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/catalog.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/__tests__/VerticalTimeline_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/dist-es6/VerticalTimeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/dist-modules/VerticalTimeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-vertical-timeline-component/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-408">
-            <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/apps/timeline/timeline.js" />
     <entry file="file://$PROJECT_DIR$/src/components/apps/timeline/MorningBathroomRoutine.js" />
     <entry file="file://$USER_HOME$/Desktop/GoogleNexusWebsiteMenu/index.html">
@@ -520,13 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="2" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/bingo-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -614,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,9 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,16 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/caller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -689,24 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/BingoBoard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/dab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/bingo-caller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -714,9 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,13 +683,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/apps/anticipation/Dice/dice.css" />
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/apps/calculator/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -751,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/apps/anticipation/anticipation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="187">
           <caret line="12" column="79" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="79" />
         </state>
       </provider>
@@ -759,16 +707,126 @@
     <entry file="file://$PROJECT_DIR$/src/components/apps/anticipation/Dice/dice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/wamp64/www/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="212" column="5" lean-forward="true" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/redux-example/reducers/counter.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/apps/redux-example/redux-template.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/reducers/counter.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/apps/todo-list/todo-list-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/redux-example/Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/redux-example/counter-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/board/bingo-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/todo-list/todo-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/BingoBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/caller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/bingo-caller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="10" selection-start-column="8" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/board/bingo-board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="97" selection-start-line="78" selection-end-line="97" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="187">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="e#79#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/apps/bingo/caller/bingo-caller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

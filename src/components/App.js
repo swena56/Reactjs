@@ -8,14 +8,29 @@ import LeaveComment from './forms/LeaveComment';
 import Faker from 'faker';
 import DailyRoutine from "./apps/timeline/daily-routine";
 import Calculator from "./apps/calculator/calculator";
-import Anticipation from "./apps/anticipation/anticipation";
-import DevDraw from "./apps/anticipation/dev-draw";
-import Dice from "./apps/anticipation/Dice/dice";
+
+import Counter from "./apps/redux-example/Counter";
+import store from "./apps/redux-example/counter-store";
+import TodoList from "./apps/todo-list/todo-list";
+import TodoListStore from "./apps/todo-list/todo-list-store";
+
+
+import BingoBoard from "./apps/bingo/board/bingo-board"
+import BingoBoardStore from "./apps/bingo/board/bingo-board-store";
+import BingoCaller from "./apps/bingo/caller/bingo-caller";
+import BingoCallerStore from "./apps/bingo/caller/bingo-caller-store";
 
 export default class App extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+        };
+    }
   render() {
     return (<Page>
-
+            <BingoCaller store={BingoCallerStore} />
+            <BingoBoard store={BingoBoardStore}/>
+        <TodoList store={TodoListStore}/>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="#">AFS</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -68,6 +83,7 @@ export default class App extends Component {
             </div>
         </nav>
 
+            <Counter store={store}/>
             <div className="tab-content">
                 <div className="tab-pane container active" id="home">
                     <DailyRoutine/>
@@ -95,9 +111,6 @@ export default class App extends Component {
                 </div>
             </div>
 
-
-
-            
             <br/>
             <br/>
             <br/>
